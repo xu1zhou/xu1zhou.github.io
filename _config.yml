@@ -1,0 +1,14 @@
+title: "xu1zhou's Blog"
+email: ""
+description: "Personal blog by xu1zhou"
+baseurl: ""
+url: "https://xu1zhou.github.io"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown
+markdown: kramdown
