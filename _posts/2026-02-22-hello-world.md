@@ -55,3 +55,4 @@ left point move forward to decrease the 0.
 [4/11]leetcode 3634
 先排序,让窗口变化对逼近边界条件有意义
 最大元素小于等于最小元素K倍 Max element <= minimal * K 
+一个问题是:从左扩大窗口当第一次满足条件就是 minimal removal,还有必要向右移动吗?(不是这样的,最右也是要移动的)
