@@ -19,8 +19,10 @@ non-fixed length sliding window
 1004. 最大连续 1 的个数 III 1656
 3641. 最长半重复子数组（会员题）
 
+套路:
+for 循环套 while循环
 
-leetcode 3
+[1/11]leetcode 3
 thought process:
 双指针围成window
 
@@ -39,4 +41,17 @@ example : abca
 
 所以消除字符的过程是一个以hash表不再重负重复为结束条件的while循环
 
-leetcode 3090
+[2/11]leetcode 3090
+
+[3/11]leetcode 1493
+删除1个0后有最长的连续1子串,条件转化为窗口里只有一个0的最长子串. 其他逻辑同上
+
+hash table
+increase right
+count 0
+if num of 0>1
+left point move forward to decrease the 0. 
+
+[4/11]leetcode 3634
+先排序,让窗口变化对逼近边界条件有意义
+最大元素小于等于最小元素K倍 Max element <= minimal * K 
